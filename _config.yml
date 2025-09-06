@@ -1,22 +1,22 @@
-title: example.com
+title: BYEONGSU KIM
 description: "Satellite - jekyll blog theme"
 logo_img: "/assets/img/favicon.webp"
 profile_img: "/assets/img/profile.webp"
 
 # Social Links
-email: example@gmail.com
-github_username: github
-twitter_username: twitter
-instagram_username: instagram
-linkedin_username: linkedin
-facebook_username: facebook
+email: kbsu147@naver.com
+github_username: codingbus821
+# twitter_username: twitter
+# instagram_username: instagram
+linkedin_username: kimbyeongsu
+# facebook_username: facebook
 
 # External API
 giscus_repo: "codingbus821/codingbus821.github.io"
 giscus_repoId: "R_kgDOPqIpJw"
 giscus_category: "Q&A"
 giscus_categoryId: "DIC_kwDOPqIpJ84CvB8P"
-goatcounter_code: byanko77
+goatcounter_code: codingbus821
 google_analytics:
 
 # If your repo name follows the format "<user-name>.github.io", then leave the below blank.
