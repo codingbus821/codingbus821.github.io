@@ -55,7 +55,7 @@
     transition:.3s;
 
     &:hover {
-      outline:4px solid orange;
+      outline:4px solid $color-gray;
       outline-offset:8px;
     }
   }
@@ -126,7 +126,7 @@
   }
 
   span { font-size:0.875rem; }
-  a { color:$color-darkorange; }
+  a { color:$color-black; }
 }
 
 .sidebar-right{ display:none; }
@@ -139,7 +139,7 @@
     width:2.75rem;
     aspect-ratio:1;
     text-align:center;
-    background:#ffe390;
+    background:$color-gray;
     border:none;
     border-radius:50%;
     margin-left:1rem;
@@ -148,7 +148,7 @@
     cursor:pointer;
 
     &:hover {
-      border:2px solid midnightblue;
+      border:2px solid $color-black;
       animation:leaves .75s ease-in-out infinite alternate;
     }
   }
@@ -156,16 +156,16 @@
   @keyframes leaves {
     0% {
       transform:scale(1.0);
-      background:#ffe390;
+      background:$color-gray;
     }
     100% {
       transform:scale(1.25);
-      background:#ffd044;
+      background:#cfcfcf;
     }
   }
 
   svg {
-    fill:#3A241A !important;
+    fill:$color-black !important;
     width:24px;
     position:relative;
     transition:all .3s;
@@ -245,7 +245,7 @@
 
   img, mark { transition:.5s ease; }
   mark { 
-    color:$color-wenge;
+    color:$color-black;
     word-break:break-word;
   }
 
@@ -262,7 +262,7 @@
 
   &:hover {
     mark { 
-      color:$color-rose;
+      color:dodgerblue;
       margin-left:40px;
     }
     img { 

@@ -151,17 +151,17 @@
     display:block;
     left:0;
     border-radius:1.5rem;
-    background:rgba(gold, .375);
+    background:rgba($color-gray, .375);
     width:3rem;
     height:3rem;
     transition:.3s;
   }
   &:hover:before {
     width:105%;
-    background:gold;
+    background:$color-gray;
   }
 
-  svg { transform:none; }
+  svg { transform:none; fill:$color-black }
 }
 
 .nav-list-expander {
