@@ -3,7 +3,7 @@ title: "막대그래프 vs 히스토그램"
 tags:
     - OpenCV
 date: "2025-11-08"
-thumbnail: "/assets/img/thumbnail/sample.png"
+thumbnail: "/assets/img/thumbnail/opencv.png"
 bookmark: true
 ---
 # 1. 막대그래프란?
