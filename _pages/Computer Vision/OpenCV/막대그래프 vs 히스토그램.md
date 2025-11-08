@@ -15,7 +15,7 @@ bookmark: true
     - 애완 동물을 좋아하는 사람들의 수
     
     ![](https://www.mindonmap.com/wp-content/uploads/2023/03/bar-graph-example-vertical.jpg){:class="img-lg"}
-    출처: [https://www.mindonmap.com/ko/blog/bar-graph-example-template/](https://www.mindonmap.com/ko/blog/bar-graph-example-template/)
+    출처: <https://www.mindonmap.com/ko/blog/bar-graph-example-template/>
 
 - 그래프의 구성 요소
     - x축: 비교하려는 범주(카테고리)
