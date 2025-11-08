@@ -15,164 +15,65 @@ bookmark: true
 - 사용되는 데이터 유형 (범주형, 서로 독립적인 항목)
     - 애완 동물을 좋아하는 사람들의 수
     
-    ![](https://github.com/user-attachments/assets/a3ddad10-3dc0-41cf-942e-61ab340e76e1)
+    ![](https://www.mindonmap.com/wp-content/uploads/2023/03/bar-graph-example-vertical.jpg){:class="img-lg"}
     출처: https://www.mindonmap.com/ko/blog/bar-graph-example-template/
 
+- 그래프의 구성 요소
+    - x축: 비교하려는 범주(카테고리)
+    - y축: 각 범주의 빈도(개수, 비율)
 
-# Make `_pages` directory
----
-Create a directory named `_pages` in root if you do not have it.
+- 막대그래프의 예시
+    - 누적 막대그래프: 하나의 막대를 여러 구간으로 나누어 각 구간의 빈도를 표현하는 그래프입니다. 즉 한 범주내에서 세부 항목이 어떻게 구성되어 있는지를 한 막대 안에 층 형태로 쌓아서 나타냅니다.
+    
+    ![](https://www.jmp.com/ko/statistics-knowledge-portal/exploratory-data-analysis/media_10747f797647b6ce7d67548f40070205576331df2.png?width=2000&format=webply&optimize=medium)
+    출처: http://jmp.com/ko/statistics-knowledge-portal/exploratory-data-analysis/types-of-graphs
+    
+    - 그룹 막대그래프: 하나의 범주 안에 여러 세부 항목을 나란히 배치하여 비교하는 그래프입니다.
+    
+    ![](https://www.jmp.com/ko/statistics-knowledge-portal/exploratory-data-analysis/media_1b7b16460989990033a51577970d25b3e55e23614.png?width=2000&format=webply&optimize=medium)
+    출처: https://www.jmp.com/ko/statistics-knowledge-portal/exploratory-data-analysis/types-of-graphs
 
-```
-$ mkdir _pages
-$ cd _pages
-```
+# 2. 히스토그램이란?
 
-# Organize your directory structure
----
-Our theme provides a hierarchical directory structure. You may create subdirectories (let's say `Category A`) in `_pages`, and then all post entities placed in the `Category A` directory will be categorized as such.
+- 정의
+    - 히스토그램 또한 데이터의 수치를 막대의 길이 또는 높이로 표현하는 그래프입니다. 그러나 각 막대는 연속형 데이터가 분할된 구간을 나타내며, 막대의 높이는 해당 구간의 빈도(개수, 비율)를 나타냅니다.
 
-```txt
-._pages
-├── Category A
-├── Category B
-|   ├── Subcatecory b
-|   ├── Subcatecory c
-```
+- 사용되는 데이터 유형 (연속형)
+    - 수학 성적분포
+        
+        ![image.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FkAKsx%2FbtstywXAqlR%2FAAAAAAAAAAAAAAAAAAAAACLwFvnHBCh3VmVbULtsuSPThdP7Xc8Ba9qVI9_NN_GG%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1764514799%26allow_ip%3D%26allow_referer%3D%26signature%3Dnr0eAQeFe0K9OAV3%252FgBu8m7X8sw%253D)
+        출처: https://thinking-atelier.tistory.com/22
 
-## Note: Make sure all directories have an `index.md` inside of them.
+- 그래프의 구성 요소
+    - x축: 데이터를 분할하는 구간
+    - y축: 각 구간의 빈도(개수, 비율)
 
-The next step is, placing `index.md` files in both `_pages` directory and its subdirectories. The inner content of each `index.md` should be just two dashed lines as shown below:
+- 히스토그램의 예시
+    - 정규 분포형 히스토그램: 가운데 부분이 높고 양쪽으로 대칭되는 종 모양의 분포입니다.
+        
+        ![](https://www.mathsisfun.com/data/images/normal-distribution.svg)
+        출처: https://www.mathsisfun.com/data/images/normal-distribution.svg
+        
+    - 치우침 분포형 히스토그램: 데이터가 한쪽으로 치우쳐 있는 경우입니다.
+    
+    ![](https://www.mathsisfun.com/data/images/skewed-distribution.svg)
+    출처: https://www.mathsisfun.com/data/images/skewed-distribution.svg
+    
+    - 이중봉형 히스토그램: 두 개의 봉우리를 가진 분포입니다.
+    
+    ![](https://upload.wikimedia.org/wikipedia/commons/7/7a/Bimodal-histogram.png)
+    출처: https://ko.wikipedia.org/wiki/%ED%9E%88%EC%8A%A4%ED%86%A0%EA%B7%B8%EB%9E%A8
+    
+    - 균등 분포형 히스토그램: 각 구간에 속하는 데이터의 빈도수가 거의 일정한 분포입니다.
+    
+    ![](https://upload.wikimedia.org/wikipedia/commons/7/7b/Symmetric2.png)
+    출처: https://ko.wikipedia.org/wiki/%ED%9E%88%EC%8A%A4%ED%86%A0%EA%B7%B8%EB%9E%A8
+    
 
-```
----
----
-```
+# 3.막대그래프과 히스토그램의 차이
 
-Or you can type the following command from each directory.
-
-```
-$ echo -e "---\n---" > index.md
-```
-
-Your `_pages` structure now looks like this:
-
-```txt
-._pages
-└── index.md
-├── Category A
-|   └── index.md
-├── Category B
-|   └── index.md
-|   ├── Subcatecory b
-|       └── index.md
-|   ├── Subcatecory c
-|       └── index.md
-```
-
-# Write a blog post
----
-
-Create a post with file extension: `.md` (ex., *Post-name.md*).  
-
-All blog post files must begin with front matter typically used to set a title or other metadata.
-
-**Note that the `title` and `date` fields can't be left blank.** 
-
-For a simple example:
-
-```
----
-title: "Example Post"
-date: "2023-12-01"
----
-
-# Welcome
-
-**Hello world**, this is my first Jekyll blog post.
-
-I hope you like it!
-```
-
-## Setting a Post Thumbnail Image
-
-Add `thumbnail` attribute to the post that you'd like to show a representative image when rendered.
-
-```
----
-title: "Example Post: thumbnail exists"
-date: "2023-12-02"
-thumbnail: "/assets/img/thumbnail/bricks.webp"
----
-```
-
-![](https://i.ibb.co/T8Rsb6L/21312.webp){:class="img-lg"}
-
-## Category Tag
-
-You can use a grouping of post topics by specifying the `tags` field. It is helpful when you'd like to search related posts or pin them on the bottom of the page.
-
-```
----
-title: "Classic Literature #1: Romeo and Juliet"
-tags:
-    - book
-    - epic novel
-    - romance
-date: "2023-12-04"
-thumbnail: "/assets/img/thumbnail/nightgardenflower.jpg"
----
-```
-
-![](https://i.ibb.co/LDKJC7p/1231.webp){:class="img-lg"}
-
-Note that the `tags` attribute won't be reflected to the sidebar navigation.
-
-## Bookmark
-
-Setting `bookmark: true` makes the sidebar nav list display the corresponding post entity.
-
-```
----
-title: "Markdown from A to Z"
-tags:
-    - user manual
-    - markdown
-    - writing format
-date: "2023-09-05"
-thumbnail: "https://i.ibb.co/MRzw6T9/sample.webp"
-bookmark: true
----
-```
-
-![](https://i.ibb.co/2sFZNNK/21313.webp){:class="img-sm"}
-
-# Example `_pages` structure
----
-
-Here is the structure introduced in our repo:
-
-```txt
-._pages
-└── index.md
-└── markdown guide.md
-├── Category A
-|   └── index.md
-|   ├── Subcatecory a
-|       └── index.md
-|       └── post-01.md
-|       └── post-02.md
-├── Category B
-|   └── index.md
-|   ├── Subcatecory b    
-|       └── index.md
-|       └── post-03.md
-|       ├── Subsubcategory 1
-|           └── index.md
-|           └── post-04.md
-|       ├── Subsubcategory 2
-|           └── index.md
-|           └── post-05.md
-|   ├── Subcatecory c
-|       └── index.md
-```
+|  | 막대그래프 | 히스토그램 |
+| --- | --- | --- |
+| 데이터 유형 | 범주형 데이터 | 연속형 데이터 |
+| X축 | 각 범주 | 구간 |
+| 막대 간 간격 | 간격 있음 | 간격 없음 |
