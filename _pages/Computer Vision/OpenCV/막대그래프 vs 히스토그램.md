@@ -6,7 +6,6 @@ date: "2025-11-08"
 thumbnail: "/assets/img/thumbnail/sample.png"
 bookmark: true
 ---
-
 # 1. 막대그래프란?
 
 - 정의
@@ -16,7 +15,7 @@ bookmark: true
     - 애완 동물을 좋아하는 사람들의 수
     
     ![](https://www.mindonmap.com/wp-content/uploads/2023/03/bar-graph-example-vertical.jpg){:class="img-lg"}
-    출처: https://www.mindonmap.com/ko/blog/bar-graph-example-template/
+    출처: [https://www.mindonmap.com/ko/blog/bar-graph-example-template/](https://www.mindonmap.com/ko/blog/bar-graph-example-template/)
 
 - 그래프의 구성 요소
     - x축: 비교하려는 범주(카테고리)
@@ -26,12 +25,12 @@ bookmark: true
     - 누적 막대그래프: 하나의 막대를 여러 구간으로 나누어 각 구간의 빈도를 표현하는 그래프입니다. 즉 한 범주내에서 세부 항목이 어떻게 구성되어 있는지를 한 막대 안에 층 형태로 쌓아서 나타냅니다.
     
     ![](https://www.jmp.com/ko/statistics-knowledge-portal/exploratory-data-analysis/media_10747f797647b6ce7d67548f40070205576331df2.png?width=2000&format=webply&optimize=medium)
-    출처: http://jmp.com/ko/statistics-knowledge-portal/exploratory-data-analysis/types-of-graphs
+    출처: [http://jmp.com/ko/statistics-knowledge-portal/exploratory-data-analysis/types-of-graphs](http://jmp.com/ko/statistics-knowledge-portal/exploratory-data-analysis/types-of-graphs)
     
     - 그룹 막대그래프: 하나의 범주 안에 여러 세부 항목을 나란히 배치하여 비교하는 그래프입니다.
     
     ![](https://www.jmp.com/ko/statistics-knowledge-portal/exploratory-data-analysis/media_1b7b16460989990033a51577970d25b3e55e23614.png?width=2000&format=webply&optimize=medium)
-    출처: https://www.jmp.com/ko/statistics-knowledge-portal/exploratory-data-analysis/types-of-graphs
+    출처: [https://www.jmp.com/ko/statistics-knowledge-portal/exploratory-data-analysis/types-of-graphs](https://www.jmp.com/ko/statistics-knowledge-portal/exploratory-data-analysis/types-of-graphs)
 
 # 2. 히스토그램이란?
 
