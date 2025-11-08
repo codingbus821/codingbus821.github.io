@@ -25,7 +25,7 @@ bookmark: true
     - 누적 막대그래프: 하나의 막대를 여러 구간으로 나누어 각 구간의 빈도를 표현하는 그래프입니다. 즉 한 범주내에서 세부 항목이 어떻게 구성되어 있는지를 한 막대 안에 층 형태로 쌓아서 나타냅니다.
     
     ![](https://www.jmp.com/ko/statistics-knowledge-portal/exploratory-data-analysis/media_10747f797647b6ce7d67548f40070205576331df2.png?width=2000&format=webply&optimize=medium)
-    출처: [http://jmp.com/ko/statistics-knowledge-portal/exploratory-data-analysis/types-of-graphs](http://jmp.com/ko/statistics-knowledge-portal/exploratory-data-analysis/types-of-graphs)
+    출처: <http://jmp.com/ko/statistics-knowledge-portal/exploratory-data-analysis/types-of-graphs>
     
     - 그룹 막대그래프: 하나의 범주 안에 여러 세부 항목을 나란히 배치하여 비교하는 그래프입니다.
     
