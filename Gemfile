@@ -37,3 +37,5 @@ end
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "jekyll-sitemap", "~> 1.3"
+
+gem "csv"
